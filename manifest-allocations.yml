@@ -3,7 +3,6 @@ applications:
   path: ./applications/allocations-server/build/libs/allocations-server.jar
   routes:
   - route: allocations-pal-pnguye35.apps.evans.pal.pivotal.io
-    -
   memory: 1G
   instances: 1
   env:
