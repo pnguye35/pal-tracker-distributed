@@ -10,3 +10,11 @@ curl https://spring-cloud-broker.pnguye35.apps.evans.pal.pivotal.io/actuator/inf
 
 
 2.0.0.RELEASE
+
+
+cd ~/workspace/assignment-submission
+./gradlew cloudNativeDeveloperDistributedSystemWithServiceDiscovery \
+    -PregistrationServerUrl=https://registration-pal-pnguye35.apps.evans.pal.pivotal.io \
+    -PbacklogServerUrl=https://backlog-pal-pnguye35.apps.evans.pal.pivotal.io \
+    -PallocationsServerUrl=https://allocations-pal-pnguye35.apps.evans.pal.pivotal.io \
+    -PtimesheetsServerUrl=https://timesheets-pal-pnguye35.apps.evans.pal.pivotal.io
